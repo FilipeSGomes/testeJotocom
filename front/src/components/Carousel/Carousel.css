@@ -1,0 +1,29 @@
+ol.carousel-indicators li.active {
+    background: blue;
+  }
+ol.carousel-indicators li{
+    background: white;
+    opacity: 1;
+}
+
+#food3{
+    background-image: url("../../Assets/food3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+#food4{
+    background-image: url("../../Assets/food4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  
+}
+
+
+  ol.carousel-indicators li,
+ol.carousel-indicators li.active {
+    width: 17px;
+    height: 0px;
+    border-radius: 50%;
+}
